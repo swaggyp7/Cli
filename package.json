@@ -1,0 +1,30 @@
+{
+  "name": "lin-cli",
+  "version": "1.0.0",
+  "description": "FrontEnd Cli for build project swiftly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "lin": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swaggyp7/Cli.git"
+  },
+  "author": "Lyt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/swaggyp7/Cli/issues"
+  },
+  "homepage": "https://github.com/swaggyp7/Cli#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.2.0",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^8.2.4",
+    "log-symbols": "^4.1.0",
+    "ora": "^5.4.1"
+  }
+}
