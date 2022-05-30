@@ -19,7 +19,7 @@ program
     "-v, --version",
     "output the current version"
   )
-  .command("init")
+  .command("create")
   .description("create a new project")
   .action(() => {
     inquirer

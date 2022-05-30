@@ -1,14 +1,15 @@
 {
-  "name": "lin-cli",
+  "name": "lyt-cli",
   "version": "1.0.0",
   "description": "FrontEnd Cli for build project swiftly",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": {
-    "lin": "./index.js"
-  },
+  "bin": "./index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/swaggyp7/Cli.git"
