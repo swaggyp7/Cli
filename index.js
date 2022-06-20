@@ -5,7 +5,7 @@ const gitRepoMap = {
   1: "direct:https://github.com/swaggyp7/TemplateForVue3Mobile.git",
 };
 
-const { program, Command } = require("commander");
+const { program } = require("commander");
 const chalk = require("chalk");
 const download = require("download-git-repo");
 const symbols = require("log-symbols");
