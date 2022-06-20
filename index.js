@@ -1,9 +1,8 @@
 #!/usr/bin/env node
-
 // /usr/bin/env就是告诉系统可以在PATH目录中查找。 所以配置#!/usr/bin/env node, 就是解决了不同的用户node路径不同的问题，可以让系统动态的去查找node来执行你的脚本文件。
 
 const gitRepoMap = {
-  1: "github.com:swaggyp7/TemplateForVue3Mobile#master",
+  1: "direct:https://github.com/swaggyp7/TemplateForVue3Mobile.git",
 };
 
 const { program, Command } = require("commander");
@@ -50,10 +49,14 @@ program
           if (err) {
             proce.fail(chalk.red(err));
           } else {
-            proce.succeed(chalk.green("Project template downloaded!"));
+            proce.succeed(
+              chalk.greenBright(
+                "🌟 Congratulation! Project created successfully!"
+              )
+            );
             console.log(chalk.blue(chalk.bold("cd ./" + name)));
-            console.log(chalk.bold("yarn install"));
-            console.log(chalk.bold("yarn serve"));
+            console.log(chalk.blue(chalk.bold("yarn install")));
+            console.log(chalk.blue(chalk.bold("yarn serve")));
           }
         });
       });
