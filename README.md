@@ -1,2 +1,2 @@
 # Cli
-FrontEnd Cli for build project swiftly
+Nodejs terminal tool for build project quickly
